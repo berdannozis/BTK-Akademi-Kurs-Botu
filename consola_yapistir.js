@@ -2,7 +2,7 @@
 
 var divElements = document.getElementsByClassName('sc-cabOPr fhJwVK');
 var currentIndex = 0; //videonun başlayacağı sayı sen 0 yaz
-var delay = 8000; //izleme süresi (bende 8 saniyede yeşil tik oluyo sende olmazsa yükselt)
+var delay = 7500; //izleme süresi (bende 8 saniyede yeşil tik oluyo sende olmazsa yükselt)
 
 function clickNextDiv() {
   if (currentIndex < divElements.length) {
